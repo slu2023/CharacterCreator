@@ -11,6 +11,11 @@ public class PlayerController : MonoBehaviour
         ArmorRenderer.sprite = newSprite;
     }
 
+    public void SetWeapon(Sprite newSprite)
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
