@@ -5,18 +5,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public SpriteRenderer ArmorRenderer;
+    public SpriteRenderer WeaponRenderer;
 
     public void SetArmor(Sprite newSprite)
     {
         ArmorRenderer.sprite = newSprite;
-        GameObject.SetActive(false);
-        GameObject.SetActive(true);
+        // GameObject.SetActive(false);
+        // GameObject.SetActive(true);
     }
 
     public void SetWeapon(Sprite newSprite)
     {
-        GameObject.SetActive(true);
-        GameObject.SetActive(false);
+        WeaponRenderer.sprite = newSprite;
+        // GameObject.SetActive(true);
+        // GameObject.SetActive(false);
     }
 
     // Start is called before the first frame update
