@@ -6,17 +6,29 @@ public class PlayerController : MonoBehaviour
 {
     public SpriteRenderer ArmorRenderer;
     public SpriteRenderer WeaponRenderer;
+    public SpriteRenderer MagicRenderer;
 
     public void SetArmor(Sprite newSprite)
     {
         ArmorRenderer.sprite = newSprite;
         // GameObject.SetActive(false);
         // GameObject.SetActive(true);
+        // GameObject.SetActive(false);
+    
     }
 
     public void SetWeapon(Sprite newSprite)
     {
         WeaponRenderer.sprite = newSprite;
+        // GameObject.SetActive(true);
+        // GameObject.SetActive(false);
+        // GameObject.SetActive(false);
+    }
+
+    public void SetMagic(Sprite newSprite)
+    {
+        MagicRenderer.sprite = newSprite;
+        // GameObject.SetActive(false);
         // GameObject.SetActive(true);
         // GameObject.SetActive(false);
     }
